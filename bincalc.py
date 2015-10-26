@@ -1,7 +1,5 @@
 #!/bin/python
 # coding: gbk
-# make by paul
-# why can not send to my git hub ???
 import time
 num = raw_input("请输入一个整数:")
 while not num.isdigit():
