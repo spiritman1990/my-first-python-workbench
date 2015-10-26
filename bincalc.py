@@ -1,5 +1,6 @@
 #!/bin/python
 # coding: gbk
+# make by paul
 import time
 num = raw_input("请输入一个整数:")
 while not num.isdigit():
