@@ -1,6 +1,8 @@
 eclipse.preferences.version=1
 encoding/backup_ver3.py=UTF-8
 encoding/bincalc.py=gbk
+encoding/curpath.py=gbk
 encoding/if1.py=utf-8
 encoding/jindu.py=UTF-8
+encoding/operfile.py=gbk
 encoding/utf8.py=UTF-8
