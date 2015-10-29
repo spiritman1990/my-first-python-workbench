@@ -10,21 +10,25 @@ phrases='''2015年10月27日17:20:51
 真他妈的累啊
 提防小人啊
 '''
+phr='''
+2015年10月29日13:46:55
+不能追加？？？
+'''
 DIR = os.getcwd() 
-OLDF = open("%s/oper1.txt"%(DIR),"w")
-OLDF.close()
+# OLDF = open("%s/oper1.txt"%(DIR),"w")
+# OLDF.close()
 w=file("%s/oper.txt"%(DIR),"w+")
 w.write(phrases)
-w.close
-h=file("%s/oper.txt"%(DIR),"a+")
-h.write(phrases)
+w.close()
+h=open("%s/oper.txt"%(DIR),"a+")
+h.write(phr)
 h.close()
 #read from a file that already exists
-k=file("%s/oper.txt"%(DIR),"r")
+k=file("%s/oper.txt"%(DIR),'r')
 for s in k.readlines():
     print s
 k.close()  
-#to delete a a file that exists
+# #to delete a a file that exists
 if os.path.isfile("%s/oper1.txt"%(DIR)):
     os.remove("%s/oper1.txt"%(DIR))
     print "删除成功"
