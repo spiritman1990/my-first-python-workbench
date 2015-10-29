@@ -15,8 +15,8 @@ phr='''
 ²»ÄÜ×·¼Ó£¿£¿£¿
 '''
 DIR = os.getcwd() 
-# OLDF = open("%s/oper1.txt"%(DIR),"w")
-# OLDF.close()
+OLDF = open("%s/oper1.txt"%(DIR),"w")
+OLDF.close()
 w=file("%s/oper.txt"%(DIR),"w+")
 w.write(phrases)
 w.close()
