@@ -5,4 +5,5 @@ encoding/curpath.py=gbk
 encoding/if1.py=utf-8
 encoding/jindu.py=UTF-8
 encoding/operfile.py=gbk
-encoding/utf8.py=UTF-8
+encoding/utf8.py=utf8
+encoding/wisclass.py=utf8

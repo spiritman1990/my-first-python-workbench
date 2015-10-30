@@ -1,3 +1,3 @@
 #!/usr/bin/python
-# coding: UTF-8
+#coding:utf8
 print "你好"
