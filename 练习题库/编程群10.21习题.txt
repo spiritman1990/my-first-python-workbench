@@ -1,0 +1,10 @@
+题目：
+定义二叉树的宽度为二叉树中包含节点最多的层中的节点数。
+现有一颗二叉树，其深度不大于 N
+基本结构为
+typedef struct tree
+{
+struct tree * left;
+struct tree * right;
+} * Btree
+求二叉树宽度， ROOT 为此二叉树根节点指针。
